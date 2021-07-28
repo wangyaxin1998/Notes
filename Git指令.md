@@ -8,21 +8,21 @@
 
 ### 1.1组成
 
-![image-20210727135231650](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727135231650.png)
+![image-20210727135231650](.images/image-20210727135231650-1627435224598124.png)
 
 
 
 工作流程：
 
-![image-20210727135207424](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727135207424.png)
+![image-20210727135207424](.images/image-20210727135207424-1627435226039125.png)
 
 
 
 ### 1.2本地仓库操作
 
-![image-20210727135837927](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727135837927.png)
+![image-20210727135837927](.images/image-20210727135837927-1627435229327127.png)
 
-![image-20210727135856897](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727135856897.png)
+![image-20210727135856897](.images/image-20210727135856897-1627435228120126.png)
 
 
 
@@ -30,7 +30,7 @@
 
 a.创建空目录
 
-![image-20210727140222087](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727140222087.png)
+![image-20210727140222087](.images/image-20210727140222087-1627435231544128.png)
 
  
 
@@ -42,13 +42,13 @@ c.Git仓库的初始化
 
 **指令：git init**
 
-![image-20210727140724374](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727140724374.png)
+![image-20210727140724374](.images/image-20210727140724374-1627435233455129.png)
 
 
 
-![image-20210727141156561](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727141156561.png)
+![image-20210727141156561](.images/image-20210727141156561-1627435235431130.png)
 
-![image-20210727141330192](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727141330192.png)
+![image-20210727141330192](.images/image-20210727141330192-1627435236800131.png)
 
 后续操作，重复使用git add和git commit即可。
 
@@ -58,31 +58,31 @@ c.Git仓库的初始化
 
 ### 1.3时光穿梭机--版本回退
 
-![image-20210727142159303](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727142159303.png)
+![image-20210727142159303](.images/image-20210727142159303-1627435238841132.png)
 
 
 
 **git log:**
 
-![image-20210727142346755](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727142346755.png)
+![image-20210727142346755](.images/image-20210727142346755-1627435240296133.png)
 
 
 
 **git log --pretty=online:**
 
-![image-20210727142511657](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727142511657.png)
+![image-20210727142511657](.images/image-20210727142511657-1627435241703134.png)
 
 
 
 操作实验：
 
-![image-20210727142703038](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727142703038.png)
+![image-20210727142703038](.images/image-20210727142703038-1627435243167135.png)
 
-![image-20210727142726360](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727142726360.png)
+![image-20210727142726360](.images/image-20210727142726360-1627435245055136.png)
 
-![image-20210727142747438](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727142747438.png)
+![image-20210727142747438](.images/image-20210727142747438-1627435246111137.png)
 
-![image-20210727142836464](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727142836464.png)
+![image-20210727142836464](.images/image-20210727142836464-1627435247735138.png)
 
 
 
@@ -92,7 +92,7 @@ c.Git仓库的初始化
 
 **指令：git reflog**
 
-![image-20210727150034355](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727150034355.png)
+![image-20210727150034355](.images/image-20210727150034355-1627435249102139.png)
 
 
 
@@ -118,7 +118,7 @@ c.在写回退指令的时候commit id可以不用写全，git自动识别，但
 
 ### 2.1远程仓库的创建
 
-![image-20210727152428709](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727152428709.png)
+![image-20210727152428709](.images/image-20210727152428709-1627435250864140.png)
 
 
 
@@ -130,7 +130,7 @@ c.在写回退指令的时候commit id可以不用写全，git自动识别，但
 
 
 
-![image-20210727160434899](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727160434899.png)
+![image-20210727160434899](.images/image-20210727160434899-1627435252887141.png)
 
 
 
@@ -138,21 +138,21 @@ c.在写回退指令的时候commit id可以不用写全，git自动识别，但
 
 a.创建空目录，名称就为
 
-![image-20210727161054088](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727161054088.png)
+![image-20210727161054088](.images/image-20210727161054088-1627435254176142.png)
 
 b.使用clone指令克隆线上仓库到本地
 
 **语法：git clone https://github.com/wangyaxin1998/WaterLevelMeasurement.git**
 
-![image-20210727161625344](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727161625344.png)
+![image-20210727161625344](.images/image-20210727161625344-1627435255625143.png)
 
-![image-20210727161605532](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727161605532.png)
+![image-20210727161605532](.images/image-20210727161605532-1627435256502144.png)
 
 
 
 c.在仓库上做对应的操作（提交缓存区、提交本地仓库、提交线上仓库、拉取线上仓库）
 
-**提交到线上仓库的指令：git push**![image-20210727162839039](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727162839039.png)
+**提交到线上仓库的指令：git push**![image-20210727162839039](.images/image-20210727162839039-1627435257920145.png)
 
 
 
@@ -162,11 +162,11 @@ c.在仓库上做对应的操作（提交缓存区、提交本地仓库、提交
 
 修改 git/config 文件内容
 
-![image-20210727163233838](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727163233838.png)
+![image-20210727163233838](.images/image-20210727163233838-1627435259423146.png)
 
-![image-20210727163329211](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727163329211.png)
+![image-20210727163329211](.images/image-20210727163329211-1627435260888147.png)
 
-![image-20210727163920198](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727163920198.png)
+![image-20210727163920198](.images/image-20210727163920198-1627435262239148.png)
 
 
 
@@ -180,19 +180,19 @@ c.在仓库上做对应的操作（提交缓存区、提交本地仓库、提交
 
 #### 2.2.2.基于ssh协议
 
-![image-20210727165436902](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727165436902.png)
+![image-20210727165436902](.images/image-20210727165436902-1627435265561149.png)
 
-![image-20210727165419873](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727165419873.png)
+![image-20210727165419873](.images/image-20210727165419873-1627435266918150.png)
 
 
 
 ②创建公私钥对文件
 
-![image-20210727170414536](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727170414536.png)
+![image-20210727170414536](.images/image-20210727170414536-1627435269824151.png)
 
-![image-20210727170714538](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727170714538.png)
+![image-20210727170714538](.images/image-20210727170714538-1627435271311152.png)
 
 
 
-![image-20210727165935685](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727165935685.png)
+![image-20210727165935685](.images/image-20210727165935685-1627435272895153.png)
 

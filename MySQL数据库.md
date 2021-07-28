@@ -14,7 +14,7 @@
 
 (6)最终用户：User，用数据库应用程序的人，不会直接与数据库打交道。
 
-(7)数据库系统：![image-20210726151417081](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210726151417081.png)
+(7)数据库系统：![image-20210726151417081](.images/image-20210726151417081-1627435889102435.png)
 
 
 
@@ -24,7 +24,7 @@
 
 ![image-20210726151521724](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210726151521724.png)
 
-![image-20210726151744066](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210726151744066.png)
+![image-20210726151744066](.images/image-20210726151744066-1627435890343436.png)
 
 ![image-20210726152054001](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210726152054001.png)
 
@@ -32,13 +32,13 @@
 
 非关系型数据库：存在内存上，不能断电，效率较高
 
-![image-20210726152633082](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210726152633082.png)
+![image-20210726152633082](.images/image-20210726152633082-1627435892206437.png)
 
 
 
 ## 3.MySQL介绍
 
-![image-20210726153603310](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210726153603310.png)
+![image-20210726153603310](.images/image-20210726153603310-1627435893735438.png)
 
 
 

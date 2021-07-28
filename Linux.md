@@ -20,7 +20,7 @@ POSIX:一套标准，度UI系统调用的服务接口进行标准化
 
 debian->Ubuntu 
 
-![image-20210701214352043](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210701214352043.png)
+![image-20210701214352043](.images/image-20210701214352043-1627435278011154.png)
 
 ![image-20210701214508178](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210701214508178.png)
 
@@ -38,7 +38,7 @@ Linux 系统从应用角度来看，分为内核空间和用户空间两个部�
 Linux 的内核主要由 5 个子系统组成：进程调度、内存管理、虚拟文件系统、网络接口、进程间通信。下面将依次讲解这 5 个子系统。
 ```
 
-![](https://subingwen.cn/linux/version-path/kernel.jpg)
+![](.images/kernel.jpg)
 
 
 
@@ -50,7 +50,7 @@ Linux 的内核主要由 5 个子系统组成：进程调度、内存管理、�
 
 #### 2.1 Linux目录结构
 
-![image-20210701220005305](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210701220005305.png)
+![image-20210701220005305](.images/image-20210701220005305-1627435283641156.png)
 
 #### 2.2相对路径
 
@@ -62,9 +62,9 @@ Linux 的内核主要由 5 个子系统组成：进程调度、内存管理、�
 
 #### 3.1工作原理
 
-![image-20210701222320325](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210701222320325.png)
+![image-20210701222320325](.images/image-20210701222320325-1627435285133157.png)
 
-<img src="C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210701222211150.png" alt="image-20210701222211150" style="zoom:150%;" />
+<img src=".images/image-20210701222211150-1627435287786158.png" alt="image-20210701222211150" style="zoom:150%;" />
 
 
 
@@ -72,13 +72,13 @@ Linux 的内核主要由 5 个子系统组成：进程调度、内存管理、�
 
 
 
-<img src="C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210701221355734.png" alt="image-20210701221355734" style="zoom:50%;" />
+<img src=".images/image-20210701221355734-1627435289947159.png" alt="image-20210701221355734" style="zoom:50%;" />
 
 ~：当前用户的家目录
 
 $:当前用户的身份
 
-![image-20210701221540392](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210701221540392.png)
+![image-20210701221540392](.images/image-20210701221540392-1627435291474160.png)
 
 root：当前用户，可以用whoami查看
 
@@ -92,7 +92,7 @@ VM-4-7-ubuntu：主机名
 
 #### 3.3命令行快捷键
 
-![image-20210701222533939](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210701222533939.png)
+![image-20210701222533939](.images/image-20210701222533939-1627435292916161.png)
 
 
 
@@ -114,7 +114,7 @@ cd==cd ~   进入当前用户家目录
 
 ### 2.ls命令
 
-![image-20210703102403004](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210703102403004.png)
+![image-20210703102403004](.images/image-20210703102403004-1627435294748162.png)
 
 #### 2.1显示所有文件
 
@@ -126,15 +126,15 @@ ls -F：显示目录，如果是文件夹将会在后面加/
 
 ls -h：在显示文件大小的时候以一种直观的方式
 
-![image-20210703102854430](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210703102854430.png)
+![image-20210703102854430](.images/image-20210703102854430-1627435300364163.png)
 
 #### 2.2显示文件详细信息
 
 ##### 2.2.1文件类型
 
-![image-20210703103143028](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210703103143028.png)
+![image-20210703103143028](.images/image-20210703103143028-1627435302523164.png)
 
-![image-20210703103351913](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210703103351913.png)
+![image-20210703103351913](.images/image-20210703103351913-1627435303795165.png)
 
 
 
@@ -142,7 +142,7 @@ ls -h：在显示文件大小的时候以一种直观的方式
 
 Linux有三大用户：文件所有者，文件所属用户组，其他人
 
-![image-20210703104000706](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210703104000706.png)
+![image-20210703104000706](.images/image-20210703104000706-1627435305474166.png)
 
 ##### 2.2.3文件权限
 
@@ -156,7 +156,7 @@ Linux有三大用户：文件所有者，文件所属用户组，其他人
 
 没有任何权限：用-表示
 
-![image-20210703104921215](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210703104921215.png)
+![image-20210703104921215](.images/image-20210703104921215-1627435307152167.png)
 
 <font color=red>从第二个字母起，3个3个一组，共三组，分别表示 文件所有者，文件所属组用户，其他人的权限</font>
 
@@ -166,7 +166,7 @@ Linux有三大用户：文件所有者，文件所属用户组，其他人
 
 ##### 2.2.4硬链接计数
 
-![image-20210703105344582](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210703105344582.png)
+![image-20210703105344582](.images/image-20210703105344582-1627435308802168-1627435314658169.png)
 
 **其实就是文件别名**
 
@@ -174,7 +174,7 @@ Linux有三大用户：文件所有者，文件所属用户组，其他人
 
 ##### 2.2.5其他属性
 
-![image-20210703105443807](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210703105443807.png)
+![image-20210703105443807](.images/image-20210703105443807-1627435315811170.png)
 
 robin：文件所属者
 
@@ -188,19 +188,19 @@ May 12 2020：文件的修改日期
 
 ### 3.创建删除目录  
 
-![image-20210703105927861](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210703105927861.png)
+![image-20210703105927861](.images/image-20210703105927861-1627435317412171.png)
 
 创建单层目录 
 
-<img src="C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210703110035816.png" alt="image-20210703110035816" style="zoom:200%;" />
+<img src=".images/image-20210703110035816-1627435318891172.png" alt="image-20210703110035816" style="zoom:200%;" />
 
 
 
 创建多层级目录要加 -p
 
-![image-20210703111217366](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210703111217366.png)
+![image-20210703111217366](.images/image-20210703111217366-1627435320554173.png)
 
-![image-20210703111553704](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210703111553704.png)
+![image-20210703111553704](.images/image-20210703111553704-1627435321746174.png)
 
 
 
@@ -208,25 +208,25 @@ May 12 2020：文件的修改日期
 
 rmdir：只能删除单目录，内部不能包括子目录
 
-![image-20210703111757776](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210703111757776.png) 
+![image-20210703111757776](.images/image-20210703111757776-1627435323187175.png) 
 
 
 
 rm:
 
-![image-20210703112516234](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210703112516234.png)
+![image-20210703112516234](.images/image-20210703112516234-1627435324686176.png)
 
-![image-20210703112538998](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210703112538998.png)
+![image-20210703112538998](.images/image-20210703112538998-1627435326816177.png)
 
-![image-20210703112758131](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210703112758131.png)
+![image-20210703112758131](.images/image-20210703112758131-1627435328124178.png)
 
 ### 4.cp命令
 
 **拷贝文件**
 
-![image-20210703121033565](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210703121033565.png)
+![image-20210703121033565](.images/image-20210703121033565-1627435329868179.png)
 
-![image-20210704125431765](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210704125431765.png)
+![image-20210704125431765](.images/image-20210704125431765-1627435331259180.png)
 
 
 
@@ -234,13 +234,13 @@ rm:
 
 **拷贝目录**
 
-![image-20210704125514689](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210704125514689.png)
+![image-20210704125514689](.images/image-20210704125514689-1627435333366181.png)
 
-![image-20210704125904226](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210704125904226.png)
+![image-20210704125904226](.images/image-20210704125904226-1627435334867182.png)
 
-![image-20210704130111693](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210704130111693.png)
+![image-20210704130111693](.images/image-20210704130111693-1627435336947183.png)
 
-![image-20210704130628177](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210704130628177.png)
+![image-20210704130628177](.images/image-20210704130628177-1627435338518184.png)
 
 
 
@@ -250,9 +250,9 @@ rm:
 
 **文件的移动**
 
-![image-20210704131517267](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210704131517267.png)
+![image-20210704131517267](.images/image-20210704131517267-1627435345626186.png)
 
-![image-20210704131428544](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210704131428544.png)
+![image-20210704131428544](.images/image-20210704131428544-1627435341075185.png)
 
 
 
@@ -260,19 +260,19 @@ rm:
 
 **文件的改名**
 
-![image-20210704132120328](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210704132120328.png)
+![image-20210704132120328](.images/image-20210704132120328-1627435347307187.png)
 
-![image-20210704132145687](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210704132145687.png)
+![image-20210704132145687](.images/image-20210704132145687-1627435348507188.png)
 
 
 
 **文件覆盖**
 
-![image-20210704132240835](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210704132240835.png)
+![image-20210704132240835](.images/image-20210704132240835-1627435350154189.png)
 
  
 
-<img src="C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210704132546083.png" alt="image-20210704132546083"  />
+<img src=".images/image-20210704132546083-1627435351691190.png" alt="image-20210704132546083"  />
 
 
 
@@ -282,25 +282,25 @@ rm:
 
 **cat：**
 
-![image-20210704155659700](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210704155659700.png)
+![image-20210704155659700](.images/image-20210704155659700-1627435353333191.png)
 
 
 
 **more：**
 
-![image-20210704160054891](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210704160054891.png)
+![image-20210704160054891](.images/image-20210704160054891-1627435358587192.png)
 
   
 
 **less：**
 
-![image-20210705161444690](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210705161444690.png)
+![image-20210705161444690](.images/image-20210705161444690-1627435360227193.png)
 
 
 
 **head：**
 
-![image-20210705161644966](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210705161644966.png)
+![image-20210705161644966](.images/image-20210705161644966-1627435361996194.png)
 
 ![image-20210705161706820](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210705161706820.png)
 
@@ -310,7 +310,7 @@ rm:
 
 **tail：**
 
-![image-20210705161740955](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210705161740955.png)
+![image-20210705161740955](.images/image-20210705161740955-1627435365890195.png)
 
 ![image-20210705161839450](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210705161839450.png)
 
@@ -320,7 +320,7 @@ rm:
 
 ### 7.链接的创建
 
-![image-20210705162254808](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210705162254808.png)
+![image-20210705162254808](.images/image-20210705162254808-1627435368163196.png)
 
 
 
@@ -328,11 +328,11 @@ rm:
 
 语法：  ln -s 源文件路径<font color=red>(绝对路径)</font> 软连接文件的名字（可以带路径）
 
-![image-20210705172140697](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210705172140697.png)
+![image-20210705172140697](.images/image-20210705172140697-1627435369531197.png)
 
 ![image-20210705172522951](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210705172522951.png)
 
-![image-20210705172326580](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210705172326580.png)
+![image-20210705172326580](.images/image-20210705172326580-1627435370909198.png)
 
 
 
@@ -342,7 +342,7 @@ rm:
 
 语法：  ln  源文件名称  硬连接文件的名字（可以带路径） <font color=green>**不允许给目录创建硬链接**</font>
 
-![image-20210705173526170](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210705173526170.png)
+![image-20210705173526170](.images/image-20210705173526170-1627435372619199.png)
 
 
 
@@ -350,7 +350,7 @@ rm:
 
 #### 8.1修改文件权限
 
-![image-20210706193757419](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210706193757419.png)
+![image-20210706193757419](.images/image-20210706193757419-1627435376087200.png)
 
 **chmod：change mod**
 
@@ -370,7 +370,7 @@ chmod who(=/+/-)rwx 文件名
 比如 chmod go-wx b.txt
 ```
 
-![image-20210706195048633](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210706195048633.png)
+![image-20210706195048633](.images/image-20210706195048633-1627435378812201.png)
 
 
 
@@ -378,7 +378,7 @@ chmod who(=/+/-)rwx 文件名
 
 **数字设定法：**
 
-![image-20210706200938759](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210706200938759.png)
+![image-20210706200938759](.images/image-20210706200938759-1627435380474202.png)
 
 ```
 例如 chmod 777 b.txt
@@ -394,7 +394,7 @@ chmod who(=/+/-)rwx 文件名
 
 **chown**
 
-![image-20210706202150052](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210706202150052.png)
+![image-20210706202150052](.images/image-20210706202150052-1627435382148203.png)
 
 
 
@@ -402,7 +402,7 @@ sudo：让普通用户使用管理员权限成功执行这条指令
 
 普通用户拥有sudo权限需要授权：
 
-![image-20210706203211295](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210706203211295.png)
+![image-20210706203211295](.images/image-20210706203211295-1627435383615204.png)
 
 
 
@@ -412,7 +412,7 @@ sudo：让普通用户使用管理员权限成功执行这条指令
 
 **chgrp**
 
-![image-20210706202737753](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210706202737753.png)
+![image-20210706202737753](.images/image-20210706202737753-1627435385322205.png)
 
 
 
@@ -420,9 +420,9 @@ sudo：让普通用户使用管理员权限成功执行这条指令
 
 #### 9.1tree命令
 
-![image-20210706203335680](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210706203335680.png)
+![image-20210706203335680](.images/image-20210706203335680-1627435386738206.png)
 
-![image-20210706203445912](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210706203445912.png)
+![image-20210706203445912](.images/image-20210706203445912-1627435387988207.png)
 
 
 
@@ -434,9 +434,9 @@ sudo：让普通用户使用管理员权限成功执行这条指令
 
 #### 9.3touch命令
 
-![image-20210706204300476](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210706204300476.png)
+![image-20210706204300476](.images/image-20210706204300476-1627435389436208.png)
 
-![image-20210706204516595](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210706204516595.png)
+![image-20210706204516595](.images/image-20210706204516595-1627435390883209.png)
 
 b文件已经存在，touch b，b的内容没有改变，修改时间变了
 
@@ -444,7 +444,7 @@ b文件已经存在，touch b，b的内容没有改变，修改时间变了
 
 #### 9.4which命令
 
-![image-20210706204754295](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210706204754295.png)
+![image-20210706204754295](.images/image-20210706204754295-1627435392883210.png)
 
 查看命令所在的目录
 
@@ -456,9 +456,9 @@ b文件已经存在，touch b，b的内容没有改变，修改时间变了
 
 #### 9.5重定向命令
 
-![image-20210706205211613](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210706205211613.png)
+![image-20210706205211613](.images/image-20210706205211613-1627435394635211.png)
 
-echo==printf![image-20210706205925006](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210706205925006.png)
+echo==printf![image-20210706205925006](.images/image-20210706205925006-1627435396035212.png)
 
 **abcd覆盖了hello world！**
 
@@ -478,15 +478,15 @@ echo==printf![image-20210706205925006](C:\Users\10592\AppData\Roaming\Typora\typ
 
 ### 1.切换用户
 
-![image-20210709150616045](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210709150616045.png)
+![image-20210709150616045](.images/image-20210709150616045-1627435398003213.png)
 
-![image-20210709152217726](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210709152217726.png)
+![image-20210709152217726](.images/image-20210709152217726-1627435399722214.png)
 
 
 
 ### 2.添加删除用户
 
-![image-20210709152915172](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210709152915172.png)
+![image-20210709152915172](.images/image-20210709152915172-1627435401397215.png)
 
 #### 2.1添加新用户
 
@@ -531,7 +531,7 @@ Is the information correct? [Y/n] y
 
 **sudo userdel 用户名 -r** 
 
-![image-20210709160948759](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210709160948759.png)
+![image-20210709160948759](.images/image-20210709160948759-1627435405123216-1627435411037217.png)
 
 
 
@@ -541,9 +541,9 @@ Is the information correct? [Y/n] y
 
 **sudo groupadd 组名**
 
-![image-20210709162629474](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210709162629474.png)
+![image-20210709162629474](.images/image-20210709162629474-1627435413482218.png)
 
-![image-20210709163143175](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210709163143175.png)
+![image-20210709163143175](.images/image-20210709163143175-1627435414739219-1627435419523220.png)
 
 
 
@@ -551,11 +551,11 @@ Is the information correct? [Y/n] y
 
 ### 4.修改密码
 
-![image-20210709164704403](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210709164704403.png)
+![image-20210709164704403](.images/image-20210709164704403-1627435420884221.png)
 
-![image-20210709164809728](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210709164809728.png)
+![image-20210709164809728](.images/image-20210709164809728-1627435422237222.png)
 
-![image-20210709164924613](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210709164924613.png)
+![image-20210709164924613](.images/image-20210709164924613-1627435423652223.png)
 
 
 
@@ -565,11 +565,11 @@ Is the information correct? [Y/n] y
 
 ## 第4章 压缩命令
 
-![image-20210710205906088](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210710205906088.png)
+![image-20210710205906088](.images/image-20210710205906088-1627435425452224.png)
 
 ### 1.tar
 
-![image-20210710210411978](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210710210411978.png)
+![image-20210710210411978](.images/image-20210710210411978-1627435426674225.png)
 
 tar不能压缩，但可以打包文件(多合一)
 
@@ -583,43 +583,43 @@ gzip和bzip可以压缩文件，但不可以打包文件
 
 
 
-![image-20210710210923521](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210710210923521.png)
+![image-20210710210923521](.images/image-20210710210923521-1627435428483226.png)
 
-![image-20210710210845167](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210710210845167.png)
+![image-20210710210845167](.images/image-20210710210845167-1627435430090227.png)
 
 
 
-![image-20210710211518220](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210710211518220.png)
+![image-20210710211518220](.images/image-20210710211518220-1627435431468228.png)
 
 
 
 #### 1.2解压缩(.tar.gz/.tgz .tar.bz2 )
 
-![image-20210710212737739](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210710212737739.png)
+![image-20210710212737739](.images/image-20210710212737739-1627435433396229.png)
 
-![image-20210710213345343](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210710213345343.png)
+![image-20210710213345343](.images/image-20210710213345343-1627435438683230.png)
 
-![image-20210710213444420](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210710213444420.png)
+![image-20210710213444420](.images/image-20210710213444420-1627435440650231.png)
 
 
 
 ### 2.zip
 
-![image-20210711095324242](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210711095324242.png)
+![image-20210711095324242](.images/image-20210711095324242-1627435442333232.png)
 
 #### 2.1压缩(.zip)
 
-![image-20210711100137264](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210711100137264.png)
+![image-20210711100137264](.images/image-20210711100137264-1627435448699233.png)
 
-![image-20210711100434311](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210711100434311.png)
+![image-20210711100434311](.images/image-20210711100434311-1627435449987234.png)
 
 
 
 #### 2.2解压缩(.zip)
 
-![image-20210711100841542](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210711100841542.png)
+![image-20210711100841542](.images/image-20210711100841542-1627435451706235.png)
 
-![image-20210711101057501](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210711101057501.png)
+![image-20210711101057501](.images/image-20210711101057501-1627435454419236.png)
 
 
 
@@ -627,13 +627,13 @@ gzip和bzip可以压缩文件，但不可以打包文件
 
 ### 3.rar
 
-![image-20210711101858796](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210711101858796.png)
+![image-20210711101858796](.images/image-20210711101858796-1627435456203237.png)
 
 #### 3.1压缩(.rar)
 
-![image-20210711102313958](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210711102313958.png)
+![image-20210711102313958](.images/image-20210711102313958-1627435459525238.png)
 
-![image-20210711112448915](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210711112448915.png)
+![image-20210711112448915](.images/image-20210711112448915-1627435460996239.png)
 
 
 
@@ -641,17 +641,17 @@ gzip和bzip可以压缩文件，但不可以打包文件
 
 #### 3.2解压缩(.rar)
 
-![image-20210711122826507](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210711122826507.png)
+![image-20210711122826507](.images/image-20210711122826507-1627435462339240.png)
 
 ### 4.xz
 
-![image-20210712211129367](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210712211129367.png)
+![image-20210712211129367](.images/image-20210712211129367-1627435464027241.png)
 
 #### 4.1压缩(.tar.xz)
 
-![image-20210712211225689](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210712211225689.png)
+![image-20210712211225689](.images/image-20210712211225689-1627435465483242.png)
 
-![image-20210712211455861](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210712211455861.png)
+![image-20210712211455861](.images/image-20210712211455861-1627435469103243.png)
 
 
 
@@ -659,17 +659,17 @@ gzip和bzip可以压缩文件，但不可以打包文件
 
 **xz -z xxx.tar**
 
-![image-20210712211604634](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210712211604634.png)
+![image-20210712211604634](.images/image-20210712211604634-1627435470767244.png)
 
 #### 4.2解压缩(.tar.xz)
 
-![image-20210712211909885](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210712211924272.png)
+![image-20210712211909885](.images/image-20210712211924272-1627435472347245.png)
 
 **xz -d xxx.tar.xzz**
 
 **tar xvf xxx.tar** 
 
-![image-20210712212241803](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210712212241803.png)
+![image-20210712212241803](.images/image-20210712212241803-1627435473570246.png)
 
 
 
@@ -689,31 +689,31 @@ gzip和bzip可以压缩文件，但不可以打包文件
 
 ### 第5章 查找命令
 
-![image-20210713155257023](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713155257023.png)
+![image-20210713155257023](.images/image-20210713155257023-1627435476506247.png)
 
 #### 1.find
 
-![image-20210713155606006](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713155606006.png)
+![image-20210713155606006](.images/image-20210713155606006-1627435477548248.png)
 
 ##### 1.1文件名(-name)
 
 <font color=red>**find  搜索路径 -name 要搜索的文件名**</font>
 
-![image-20210713155915130](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713155915130.png)
+![image-20210713155915130](.images/image-20210713155915130-1627435478747249.png)
 
-![image-20210713160012807](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713160012807.png)
+![image-20210713160012807](.images/image-20210713160012807-1627435480307250.png)
 
-![image-20210713160255402](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713160255402.png)
+![image-20210713160255402](.images/image-20210713160255402-1627435481602251.png)
 
 
 
 ##### 1.2文件类型(type)
 
-![image-20210713160341568](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713160341568.png)
+![image-20210713160341568](.images/image-20210713160341568-1627435485175252.png)
 
 <font color=red>**find  搜索路径 -type 文件类型**</font>
 
-![image-20210713160505713](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713160505713.png)
+![image-20210713160505713](.images/image-20210713160505713-1627435486415253.png)
 
 
 
@@ -721,15 +721,15 @@ gzip和bzip可以压缩文件，但不可以打包文件
 
 ##### 1.3文件大小(-size)
 
-![image-20210713161704195](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713161704195.png)
+![image-20210713161704195](.images/image-20210713161704195-1627435489259254.png)
 
 <font color=red>**find  搜索路径 -size 文件大小**</font>
 
-![image-20210713161855993](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713161855993.png)
+![image-20210713161855993](.images/image-20210713161855993-1627435490995255.png)
 
-![image-20210713161949896](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713161949896.png)
+![image-20210713161949896](.images/image-20210713161949896-1627435492396256.png)
 
-![image-20210713162429641](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713162429641.png)
+![image-20210713162429641](.images/image-20210713162429641-1627435494117257.png)
 
 
 
@@ -737,9 +737,9 @@ gzip和bzip可以压缩文件，但不可以打包文件
 
 ##### 1.4目录层级
 
-![image-20210713162809324](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713162809324.png)
+![image-20210713162809324](.images/image-20210713162809324-1627435495866258.png)
 
-![image-20210713163043022](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713163043022.png)
+![image-20210713163043022](.images/image-20210713163043022-1627435499722259.png)
 
 
 
@@ -747,33 +747,33 @@ gzip和bzip可以压缩文件，但不可以打包文件
 
 ###### 1.5.1exec
 
-![image-20210713165724584](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713165724584.png)
+![image-20210713165724584](.images/image-20210713165724584-1627435501772260.png)
 
 <font color=red>**find  搜索路径 参数 参数值 -exec shell命令2 {} \\；**</font>
 
-![image-20210713181127293](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713181127293.png)
+![image-20210713181127293](.images/image-20210713181127293-1627435505196261.png)
 
 ###### 1.5.2ok
 
 **交互命令**
 
-![image-20210713190458057](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713190458057.png)
+![image-20210713190458057](.images/image-20210713190458057-1627435507202262.png)
 
 <font color=red>**find  搜索路径 参数 参数值 -ok shell命令2 {} \\；**</font>
 
-![image-20210713190751007](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713190751007.png)
+![image-20210713190751007](.images/image-20210713190751007-1627435508674263.png)
 
 
 
 ###### 1.5.3xargs
 
-![image-20210713191713076](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713191713076.png)
+![image-20210713191713076](.images/image-20210713191713076-1627435509975264.png)
 
 <font color=red>**find  搜索路径 参数 参数值 |xargs shell命令2 {} \\；**</font>
 
-![image-20210713191927726](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713191927726.png)
+![image-20210713191927726](.images/image-20210713191927726-1627435511151265.png)
 
-![image-20210713192841114](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713192841114.png)
+![image-20210713192841114](.images/image-20210713192841114-1627435512774266.png)
 
 xargs  √ 
 
@@ -785,11 +785,11 @@ exec ×
 
 #### 2.grep
 
-![image-20210713193031835](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713193031835.png)
+![image-20210713193031835](.images/image-20210713193031835-1627435514916267.png)
 
 <font color=red>**grep '搜索的内容' 搜索的路径/文件 参数 **</font>
 
-![image-20210713193659975](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713193659975.png)
+![image-20210713193659975](.images/image-20210713193659975-1627435516234268.png)
 
  
 
@@ -799,23 +799,23 @@ exec ×
 
 **而是检索数据库的内容，数据库中含有本地所有文件信息**
 
-![image-20210713194949365](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713194949365.png)
+![image-20210713194949365](.images/image-20210713194949365-1627435518252269.png)
 
 
 
 <font color=red>**sudo updatedb **</font>
 
-![image-20210713195810980](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713195810980.png)
+![image-20210713195810980](.images/image-20210713195810980-1627435519610270.png)
 
-![image-20210713195950573](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713195950573.png)
+![image-20210713195950573](.images/image-20210713195950573-1627435520977271.png)
 
  
 
-![image-20210713200319739](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713200319739.png)
+![image-20210713200319739](.images/image-20210713200319739-1627435523700272.png)
 
-![image-20210713201314817](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713201314817.png)
+![image-20210713201314817](.images/image-20210713201314817-1627435525915273.png)
 
-![image-20210713201335652](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713201335652.png)
+![image-20210713201335652](.images/image-20210713201335652-1627435527388274.png)
 
 
 
@@ -827,13 +827,13 @@ exec ×
 
 ### 1.vim的安装
 
-![image-20210713205455344](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713205455344.png)
+![image-20210713205455344](.images/image-20210713205455344-1627435535211275.png)
 
-![image-20210713205714299](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713205714299.png)
+![image-20210713205714299](.images/image-20210713205714299-1627435538735276.png)
 
-![image-20210713205742879](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713205742879.png)
+![image-20210713205742879](.images/image-20210713205742879-1627435540642277.png)
 
-![image-20210713205837191](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713205837191.png)
+![image-20210713205837191](.images/image-20210713205837191-1627435542164278.png)
 
 
 
@@ -841,7 +841,7 @@ exec ×
 
 ### 2.vim的模式
 
-![](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713210122783.png)
+![](.images/image-20210713210122783-1627435544844279.png)
 
 
 
@@ -849,25 +849,25 @@ exec ×
 
 ### 3.命令模式下的操作
 
-![image-20210713211345504](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713211345504.png)
+![image-20210713211345504](.images/image-20210713211345504-1627435546131280.png)
 
 
 
 #### 3.1保存退出
 
-![image-20210713211446800](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713211446800.png)
+![image-20210713211446800](.images/image-20210713211446800-1627435547635281.png)
 
 #### 3.2代码格式化
 
-![image-20210713211518320](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713211518320.png)
+![image-20210713211518320](.images/image-20210713211518320-1627435549121282.png)
 
 
 
 #### 3.3光标移动
 
-![image-20210713211714014](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713211714014.png)
+![image-20210713211714014](.images/image-20210713211714014-1627435550435283.png)
 
-![image-20210713212010582](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713212010582.png)
+![image-20210713212010582](.images/image-20210713212010582-1627435558260284.png)
 
 ```
 home/0：行首
@@ -889,7 +889,7 @@ n+回车：光标位置向下移动n行的行首
 
 #### 3.4删除命令
 
-![image-20210713214132565](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210713214132565.png)
+![image-20210713214132565](.images/image-20210713214132565-1627435562651285.png)
 
 
 
@@ -897,7 +897,7 @@ n+回车：光标位置向下移动n行的行首
 
 #### 3.5撤销和反撤销
 
-![image-20210714095526977](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210714095526977.png)
+![image-20210714095526977](.images/image-20210714095526977-1627435564178286.png)
 
 
 
@@ -907,7 +907,7 @@ n+回车：光标位置向下移动n行的行首
 
  
 
-![image-20210715163011906](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210715163011906.png)
+![image-20210715163011906](.images/image-20210715163011906-1627435566057287.png)
 
 
 
@@ -917,31 +917,31 @@ n+回车：光标位置向下移动n行的行首
 
 v：version
 
-![image-20210715164008368](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210715164008368.png)
+![image-20210715164008368](.images/image-20210715164008368-1627435567994288.png)
 
-![image-20210715164302347](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210715164302347.png)
+![image-20210715164302347](.images/image-20210715164302347-1627435569722289.png)
 
-![image-20210715164318830](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210715164318830.png)
+![image-20210715164318830](.images/image-20210715164318830-1627435571114290.png)
 
 ##### 3.7.1字符可视模式
 
 
 
-![image-20210715165848720](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210715165848720.png)
+![image-20210715165848720](.images/image-20210715165848720-1627435572516291.png)
 
 ##### 3.7.2行可视模式
 
-![image-20210715165924967](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210715165924967.png)
+![image-20210715165924967](.images/image-20210715165924967-1627435573961292.png)
 
 ##### 3.7.3块可视化模式
 
-![image-20210715165948005](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210715165948005.png)
+![image-20210715165948005](.images/image-20210715165948005-1627435575386293.png)
 
 
 
 ##### 3.7.4代码注释
 
-![image-20210715170716167](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210715170716167.png)
+![image-20210715170716167](.images/image-20210715170716167-1627435577250294.png)
 
  
 
@@ -949,19 +949,19 @@ v：version
 
 r:replace
 
-![image-20210715171318314](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210715171318314.png)
+![image-20210715171318314](.images/image-20210715171318314-1627435580578295.png)
 
 
 
 #### 3.9查找 
 
-![image-20210715192143792](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210715192143792.png)
+![image-20210715192143792](.images/image-20210715192143792-1627435581994296.png)
 
  **记得/ 后加回车**
 
 #号：光标指向单词  然后按#
 
-![image-20210715194319816](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210715194319816.png)
+![image-20210715194319816](.images/image-20210715194319816-1627435583706297.png)
 
 
 
@@ -971,11 +971,11 @@ r:replace
 
 
 
-![image-20210715194539327](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210715194539327.png)
+![image-20210715194539327](.images/image-20210715194539327-1627435585737298.png)
 
 例如：man 1 cp
 
-![image-20210715195237034](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210715195237034.png)
+![image-20210715195237034](.images/image-20210715195237034-1627435589505299.png)
 
 
 
@@ -983,7 +983,7 @@ r:replace
 
 #### 3.11切换到编辑模式
 
-![image-20210715200011536](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210715200011536.png)
+![image-20210715200011536](.images/image-20210715200011536-1627435591138300.png)
 
 
 
@@ -993,17 +993,17 @@ r:replace
 
 #### 4.1命令模式到末行模式
 
-![image-20210715203303922](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210715203303922.png)
+![image-20210715203303922](.images/image-20210715203303922-1627435593610301.png)
 
-![image-20210715203403540](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210715203403540.png)
+![image-20210715203403540](.images/image-20210715203403540-1627435595017302.png)
 
-![image-20210715203508795](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210715203508795.png)
+![image-20210715203508795](.images/image-20210715203508795-1627435596841303.png)
 
 
 
 #### 4.2保存退出
 
-![image-20210715203558788](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210715203558788.png)
+![image-20210715203558788](.images/image-20210715203558788-1627435598042304.png)
 
 
 
@@ -1013,17 +1013,17 @@ r:replace
 
 <font color=red>**:%s/被替换文字/新关键字/g**</font>
 
-![image-20210715204553729](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210715204553729.png)
+![image-20210715204553729](.images/image-20210715204553729-1627435599747305.png)
 
 
 
 #### 4.4末行模式下的分屏操作
 
-![image-20210715210805836](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210715210805836.png)
+![image-20210715210805836](.images/image-20210715210805836-1627435604362306.png)
 
 
 
-![image-20210715211720926](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210715211720926.png)
+![image-20210715211720926](.images/image-20210715211720926-1627435606244307.png)
 
 ctrl+w+w 选定窗口->  ：q/wq
 
@@ -1031,19 +1031,19 @@ ctrl+w+w 选定窗口->  ：q/wq
 
 #### 4.5行跳转
 
-![image-20210715212141860](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210715212141860.png)
+![image-20210715212141860](.images/image-20210715212141860-1627435608331308.png)
 
 #### 4.5执行shell命令
 
-![image-20210715212240592](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210715212240592.png)
+![image-20210715212240592](.images/image-20210715212240592-1627435609915309.png)
 
-![image-20210715212350272](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210715212350272.png)
+![image-20210715212350272](.images/image-20210715212350272-1627435611594310.png)
 
 
 
 ### 5.vim配置文件
 
-![image-20210715212634580](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210715212634580.png)
+![image-20210715212634580](.images/image-20210715212634580-1627435613778311.png)
 
 
 
@@ -1069,55 +1069,55 @@ ctrl+w+w 选定窗口->  ：q/wq
 
 ### 1.安装GCC
 
-![image-20210717212552278](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210717212552278.png)
+![image-20210717212552278](.images/image-20210717212552278-1627435616900312.png)
 
  
 
 ### 2.gcc工作流程
 
-![image-20210717213100854](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210717213100854.png)
+![image-20210717213100854](.images/image-20210717213100854-1627435618155313.png)
 
-![img](https://subingwen.cn/linux/gcc/gcc.jpg)
+![img](.images/gcc.jpg)
 
 源文件->预处理文件
 
-![image-20210717213647819](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210717213647819.png)
+![image-20210717213647819](.images/image-20210717213647819-1627435623946315.png)
 
 
 
 预处理->汇编
 
-![image-20210717214011362](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210717214011362.png)
+![image-20210717214011362](.images/image-20210717214011362-1627435625305316.png)
 
 
 
 汇编->二进制
 
-![image-20210717214439886](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210717214439886.png)
+![image-20210717214439886](.images/image-20210717214439886-1627435626618317.png)
 
  
 
 二进制->可执行程序
 
-![image-20210717214914559](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210717214914559.png)
+![image-20210717214914559](.images/image-20210717214914559-1627435628038318.png)
 
 
 
 **执行可执行程序 ：./+可执行程序名字**
 
-![image-20210717215033708](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210717215033708.png)
+![image-20210717215033708](.images/image-20210717215033708-1627435629395319.png)
 
 
 
 **源文件->可执行程序**
 
-![image-20210717215500240](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210717215500240.png)
+![image-20210717215500240](.images/image-20210717215500240-1627435630764320.png)
 
 
 
 未指定名字的情况下：
 
-![image-20210717215908711](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210717215908711.png)
+![image-20210717215908711](.images/image-20210717215908711-1627435632574321.png)
 
 
 
@@ -1125,15 +1125,15 @@ ctrl+w+w 选定窗口->  ：q/wq
 
 ### 3.gcc常用参数
 
-![image-20210717221312507](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210717221312507.png)
+![image-20210717221312507](.images/image-20210717221312507-1627435634001322.png)
 
 #### 3.1指定生成的文件名(-o)
 
-![image-20210718101807478](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718101807478.png)
+![image-20210718101807478](.images/image-20210718101807478-1627435635954323.png)
 
 #### 3.2搜索头文件
 
-![image-20210718102032266](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718102032266.png)
+![image-20210718102032266](.images/image-20210718102032266-1627435637683324.png)
 
 **同时编译多个文件用通配符 *.c**
 
@@ -1141,7 +1141,7 @@ ctrl+w+w 选定窗口->  ：q/wq
 
 
 
-![image-20210718102236904](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718102236904.png) 
+![image-20210718102236904](.images/image-20210718102236904-1627435639041325.png) 
 
  
 
@@ -1153,11 +1153,11 @@ ctrl+w+w 选定窗口->  ：q/wq
 
 
 
-![image-20210718103119982](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718103119982.png)
+![image-20210718103119982](.images/image-20210718103119982-1627435640386326.png)
 
-![image-20210718103029459](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718103029459.png)
+![image-20210718103029459](.images/image-20210718103029459-1627435641785327.png)
 
-![image-20210718103157564](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718103157564.png)
+![image-20210718103157564](.images/image-20210718103157564-1627435643235328.png)
 
 
 
@@ -1167,33 +1167,33 @@ ctrl+w+w 选定窗口->  ：q/wq
 
 #### 4.1准备工作
 
-![image-20210718104409130](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718104409130.png)
+![image-20210718104409130](.images/image-20210718104409130-1627435644457329.png)
 
 #### 4.2编译运行
 
-![image-20210718104449132](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718104449132.png)
+![image-20210718104449132](.images/image-20210718104449132-1627435649402330.png)
 
 ### 5.gcc与g++
 
-![image-20210718105402549](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718105402549.png)
+![image-20210718105402549](.images/image-20210718105402549-1627435652162331.png)
 
-![image-20210718105924570](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718105924570.png)
+![image-20210718105924570](.images/image-20210718105924570-1627435654514332.png)
 
-![image-20210718110420724](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718110420724.png)
+![image-20210718110420724](.images/image-20210718110420724-1627435656802333.png)
 
-![image-20210718105755300](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718105755300.png)
+![image-20210718105755300](.images/image-20210718105755300-1627435658222334.png)
 
 
 
 ## 第8章 静态库和动态库
 
-![image-20210718111425326](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718111425326.png)
+![image-20210718111425326](.images/image-20210718111425326-1627435659546335.png)
 
 
 
 ### 1.静态库
 
-![image-20210718112023233](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718112023233.png)
+![image-20210718112023233](.images/image-20210718112023233-1627435660802336.png)
 
 ![image-20210718112250310](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718112250310.png)
 
@@ -1203,31 +1203,31 @@ ctrl+w+w 选定窗口->  ：q/wq
 
 1.需要将源文件进行汇编，得到.o文件，需要使用参数-c
 
-![image-20210718112638387](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718112638387.png)
+![image-20210718112638387](.images/image-20210718112638387-1627435662507337.png)
 
 
 
 2.将得到的.o进行打包，得到静态库
 
-![image-20210718113301759](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718113301759.png)
+![image-20210718113301759](.images/image-20210718113301759-1627435664083338.png)
 
-![image-20210718113321532](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718113321532.png)
+![image-20210718113321532](.images/image-20210718113321532-1627435667190339.png)
 
 
 
 3.发布头文件和静态库：head.h和libcalc.a
 
-![image-20210718151739793](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718151739793.png)
+![image-20210718151739793](.images/image-20210718151739793-1627435669462340.png)
 
 
 
 #### 1.2静态库的使用
 
-![image-20210718152602889](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718152602889.png)
+![image-20210718152602889](.images/image-20210718152602889-1627435670415341.png)
 
-![image-20210718152644847](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718152644847.png)
+![image-20210718152644847](.images/image-20210718152644847-1627435672020342.png)
 
-![image-20210718152812972](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718152812972.png)
+![image-20210718152812972](.images/image-20210718152812972-1627435674683343.png)
 
 
 
@@ -1235,79 +1235,79 @@ ctrl+w+w 选定窗口->  ：q/wq
 
 ### 2.动态库
 
-![image-20210718153524145](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718153524145.png)
+![image-20210718153524145](.images/image-20210718153524145-1627435676475344.png)
 
 #### 2.1生成动态链接库
 
-![image-20210718154156210](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718154156210.png)
+![image-20210718154156210](.images/image-20210718154156210-1627435678274345.png)
 
-![image-20210718154402703](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718154402703.png)
+![image-20210718154402703](.images/image-20210718154402703-1627435680035346.png)
 
  
 
-1.![image-20210718154829259](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718154829259.png)
+1.![image-20210718154829259](.images/image-20210718154829259-1627435681556347.png)
 
 2.
 
-![image-20210718154914156](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718154914156.png)
+![image-20210718154914156](.images/image-20210718154914156-1627435682868348.png)
 
 3.
 
-![image-20210718161644280](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718161644280.png)
+![image-20210718161644280](.images/image-20210718161644280-1627435687215349.png)
 
  
 
 #### 2.2动态库的使用
 
-![image-20210718162501808](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718162501808.png)
+![image-20210718162501808](.images/image-20210718162501808-1627435688690350.png)
 
-![image-20210718162524927](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718162524927.png)
+![image-20210718162524927](.images/image-20210718162524927-1627435694595351.png)
 
 #### 2.3解决动态库无法加载的问题
 
 #####  2.3.1库的工作原理
 
-![image-20210718164318325](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718164318325.png)
+![image-20210718164318325](.images/image-20210718164318325-1627435697475352.png)
 
 ##### 2.3.2动态链接器
 
 <font color=red>**☆☆☆☆☆☆**</font>
 
-![image-20210718164725116](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718164725116.png)
+![image-20210718164725116](.images/image-20210718164725116-1627435699739353.png)
 
 #####  2.3.3解决方案
 
 **查看环境变量**
 
-![image-20210718171349197](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718171349197.png)
+![image-20210718171349197](.images/image-20210718171349197-1627435701955354.png)
 
 
 
 **添加环境变量**(只对当前终端有效)
 
-![image-20210718172253178](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718172253178.png)
+![image-20210718172253178](.images/image-20210718172253178-1627435704359355.png)
 
-![image-20210718172915123](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718172915123.png)
-
-
-
-管理员权限
-
-![image-20210718173238228](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718173238228.png)
+![image-20210718172915123](.images/image-20210718172915123-1627435705868356.png)
 
 
 
 管理员权限
 
-![image-20210718173248592](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718173248592.png)
+![image-20210718173238228](.images/image-20210718173238228-1627435707451357.png)
+
+
+
+管理员权限
+
+![image-20210718173248592](.images/image-20210718173248592-1627435708706358.png)
 
 ##### 2.3.4验证
 
-![image-20210718173541595](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718173541595.png)
+![image-20210718173541595](.images/image-20210718173541595-1627435710058359.png)
 
 **查看可执行程序需要的库文件**
 
-![image-20210718170826611](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718170826611.png)
+![image-20210718170826611](.images/image-20210718170826611-1627435710922360.png)
 
 
 
@@ -1317,11 +1317,11 @@ ctrl+w+w 选定窗口->  ：q/wq
 
 #### 3.1静态库
 
-![image-20210718205435388](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718205435388.png)
+![image-20210718205435388](.images/image-20210718205435388-1627435712490361.png)
 
 #### 3.2动态库
 
-![image-20210718205729630](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210718205729630.png)
+![image-20210718205729630](.images/image-20210718205729630-1627435714435362.png)
 
 
 
@@ -1329,21 +1329,21 @@ ctrl+w+w 选定窗口->  ：q/wq
 
 ## 第9章 Makefile
 
-![image-20210720201654314](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210720201654314.png)
+![image-20210720201654314](.images/image-20210720201654314-1627435716290363.png)
 
 
 
-![image-20210720201746079](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210720201746079.png)
+![image-20210720201746079](.images/image-20210720201746079-1627435717564364.png)
 
 ### 1.规则
 
-![image-20210720202022677](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210720202022677.png)
+![image-20210720202022677](.images/image-20210720202022677-1627435719180365.png)
 
-![image-20210720202142272](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210720202142272.png)
+![image-20210720202142272](.images/image-20210720202142272-1627435720522366.png)
 
 
 
-![image-20210720202222337](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210720202222337.png)
+![image-20210720202222337](.images/image-20210720202222337-1627435722322367.png)
 
 ```
 app：目标
@@ -1363,7 +1363,7 @@ a.c b.c c.c ：原材料(依赖)
 
 #### 2.1规则的执行
 
-![image-20210722163448456](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210722163448456.png)
+![image-20210722163448456](.images/image-20210722163448456-1627435725515368.png)
 
 ```
 # makefile
@@ -1382,13 +1382,13 @@ c.o:c.c
 	gcc -c c.c
 ```
 
-![image-20210722163911582](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210722163911582.png)
+![image-20210722163911582](.images/image-20210722163911582-1627435727067369.png)
 
 
 
 #### 2.2文件的时间戳
 
-![image-20210722165734383](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210722165734383.png)
+![image-20210722165734383](.images/image-20210722165734383-1627435730067370.png)
 
 
 
@@ -1396,11 +1396,11 @@ c.o:c.c
 
 使用命令 make 编译扩展名为.c 的 C 语言文件的时候，源文件的编译规则不用明确给出。这是因为 make 进行编译的时候会使用一个默认的编译规则，按照默认规则完成对.c 文件的编译，生成对应的.o 文件。它使用命令 cc -c 来编译.c 源文件。在 Makefile 中只要给出需要构建的目标文件名（一个.o 文件），make 会自动为这个.o 文件寻找合适的依赖文件（对应的.c 文件），并且使用默认的命令来构建这个目标文件。
 
-![image-20210722170200318](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210722170200318.png)
+![image-20210722170200318](.images/image-20210722170200318-1627435732315371.png)
 
 **.o文件不存在，自动推导.c文件生成.o文件**
 
-![image-20210722170305598](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210722170305598.png)
+![image-20210722170305598](.images/image-20210722170305598-1627435733817372.png)
 
 
 
@@ -1408,7 +1408,7 @@ c.o:c.c
 
 
 
-![image-20210722173639467](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210722173639467.png)
+![image-20210722173639467](.images/image-20210722173639467-1627435735196373.png)
 
 
 
@@ -1416,35 +1416,35 @@ c.o:c.c
 
 ### 3.变量
 
-![image-20210723100450265](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210723100450265.png)
+![image-20210723100450265](.images/image-20210723100450265-1627435736915374.png)
 
 
 
 #### 3.1自定义变量
 
-![image-20210723100613908](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210723100613908.png)
+![image-20210723100613908](.images/image-20210723100613908-1627435738434375.png)
 
-![image-20210723101632791](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210723101632791.png)
+![image-20210723101632791](.images/image-20210723101632791-1627435740770376.png)
 
 
 
 #### 3.2预定义变量
 
-![image-20210723104229235](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210723104229235.png)
+![image-20210723104229235](.images/image-20210723104229235-1627435746971377.png)
 
-![image-20210723110158901](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210723110158901.png)
+![image-20210723110158901](.images/image-20210723110158901-1627435749318378.png)
 
 
 
 #### 3.3自动变量
 
-![image-20210723110504920](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210723110504920.png)
+![image-20210723110504920](.images/image-20210723110504920-1627435750499379.png)
 
-![image-20210723110618209](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210723110618209.png)
+![image-20210723110618209](.images/image-20210723110618209-1627435753147380.png)
 
 **最常用 $@ $^ $<**
 
-![image-20210723110904003](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210723110904003.png)
+![image-20210723110904003](.images/image-20210723110904003-1627435754274381.png)
 
 $^==add.o dov.o main.o mult.o sub.o
 
@@ -1456,11 +1456,11 @@ $@==calc
 
 ### 4.模式匹配
 
-![image-20210723111630628](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210723111630628.png)
+![image-20210723111630628](.images/image-20210723111630628-1627435755827382.png)
 
-![image-20210723111943300](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210723111943300.png)
+![image-20210723111943300](.images/image-20210723111943300-1627435758163383.png)
 
-![image-20210724102454624](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724102454624.png)
+![image-20210724102454624](.images/image-20210724102454624-1627435761483384.png)
 
 
 
@@ -1468,35 +1468,35 @@ $@==calc
 
 ### 5.函数
 
-![image-20210724102653127](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724102653127.png)
+![image-20210724102653127](.images/image-20210724102653127-1627435763381385.png)
 
 #### 5.1wildcard
 
-![image-20210724103126433](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724103126433.png)
+![image-20210724103126433](.images/image-20210724103126433-1627435764801386.png)
 
 
 
 #### 5.2patsubst
 
-![image-20210724103522278](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724103522278.png)
+![image-20210724103522278](.images/image-20210724103522278-1627435767675387.png)
 
-![image-20210724103702368](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724103702368.png)
+![image-20210724103702368](.images/image-20210724103702368-1627435769484388.png)
 
 #### 5.3函数练习
 
-![image-20210724104920404](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724104920404.png)
+![image-20210724104920404](.images/image-20210724104920404-1627435771202389.png)
 
-![image-20210724105247693](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724105247693.png)
+![image-20210724105247693](.images/image-20210724105247693-1627435772754390.png)
 
 #### 5.4make clean
 
-![image-20210724111508480](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724111508480.png)
+![image-20210724111508480](.images/image-20210724111508480-1627435774747391.png)
 
-![image-20210724111546276](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724111546276.png)
+![image-20210724111546276](.images/image-20210724111546276-1627435777738392.png)
 
 为了防止上面命令执行失败，后面命令终止执行，可以在指令前加 -
 
-比如：![image-20210724111852292](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724111852292.png)
+比如：![image-20210724111852292](.images/image-20210724111852292-1627435779554393.png)
 
 
 
@@ -1510,17 +1510,17 @@ $@==calc
 
 ## 第10章 GDB调试
 
-![image-20210724144450343](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724144450343.png)
+![image-20210724144450343](.images/image-20210724144450343-1627435782415394.png)
 
 ### 1.调试准备
 
 **-g**
 
-![image-20210724144701697](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724144701697.png)
+![image-20210724144701697](.images/image-20210724144701697-1627435783890395.png)
 
-![image-20210724144758366](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724144758366.png)
+![image-20210724144758366](.images/image-20210724144758366-1627435785100396.png)
 
-![image-20210724152019853](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724152019853.png)
+![image-20210724152019853](.images/image-20210724152019853-1627435786490397.png)
 
 
 
@@ -1532,17 +1532,17 @@ $@==calc
 
 **gdb 文件名**
 
-![image-20210724152119520](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724152119520.png)
+![image-20210724152119520](.images/image-20210724152119520-1627435787989398.png)
 
-![image-20210724152204947](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724152204947.png)
+![image-20210724152204947](.images/image-20210724152204947-1627435789331399.png)
 
 
 
 #### 2.2命令行传参
 
-![image-20210724152501030](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724152501030.png)
+![image-20210724152501030](.images/image-20210724152501030-1627435791035400.png)
 
-![image-20210724152536681](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724152536681.png)
+![image-20210724152536681](.images/image-20210724152536681-1627435794164401.png)
 
 
 
@@ -1554,7 +1554,7 @@ run：到断点处停，无断点直接跑完
 start：阻塞在main函数第一行，等待其他gdb命令
 ```
 
-![image-20210724152648205](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724152648205.png)
+![image-20210724152648205](.images/image-20210724152648205-1627435800995402.png)
 
 ![image-20210724152717352](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724152717352.png)
 
@@ -1564,7 +1564,7 @@ start：阻塞在main函数第一行，等待其他gdb命令
 q/quit
 ```
 
-![image-20210724152749489](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724152749489.png)
+![image-20210724152749489](.images/image-20210724152749489-1627435803090403.png)
 
 
 
@@ -1580,13 +1580,13 @@ l 行号
 l函数名
 ```
 
-![image-20210724152924472](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724152924472.png)
+![image-20210724152924472](.images/image-20210724152924472-1627435804521404.png)
 
 **如果进行了文件切换，切换到哪个文件，哪个文件就是当前文件**
 
  
 
-![image-20210724153333865](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724153333865.png)
+![image-20210724153333865](.images/image-20210724153333865-1627435806107405.png)
 
 
 
@@ -1598,9 +1598,9 @@ l函数名
 l 文件名(a.cpp):行号/函数名
 ```
 
-![image-20210724153932374](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724153932374.png)
+![image-20210724153932374](.images/image-20210724153932374-1627435808090406.png)
 
-![image-20210724154920417](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724154920417.png)
+![image-20210724154920417](.images/image-20210724154920417-1627435810234407.png)
 
 
 
@@ -1611,9 +1611,9 @@ set list/listsize x
 show list/listsize 
 ```
 
-![image-20210724155355641](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724155355641.png)
+![image-20210724155355641](.images/image-20210724155355641-1627435812948408.png)
 
-![image-20210724155437531](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724155437531.png)
+![image-20210724155437531](.images/image-20210724155437531-1627435815074409.png)
 
 listsize==list
 
@@ -1633,9 +1633,9 @@ break/b 文件名(a.cpp):函数名
 break/b 位置参数 if 变量==x(条件断点，多用于循环)
 ```
 
-![image-20210724160420629](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724160420629.png)
+![image-20210724160420629](.images/image-20210724160420629-1627435817411410.png)
 
-![image-20210724160735189](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724160735189.png)
+![image-20210724160735189](.images/image-20210724160735189-1627435819203411.png)
 
 #### 4.2 查看断点
 
@@ -1644,9 +1644,9 @@ info break
 i b
 ```
 
-![image-20210724162503896](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724162503896.png)
+![image-20210724162503896](.images/image-20210724162503896-1627435825782412.png)
 
-![image-20210724162528861](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724162528861.png)
+![image-20210724162528861](.images/image-20210724162528861-1627435827771413.png)
 
 
 
@@ -1660,9 +1660,9 @@ delete/del/d 断点序号 断点序号 断点序号...
 delete/del/d 断点序号-断点序号
 ```
 
-![image-20210724162940180](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724162940180.png)
+![image-20210724162940180](.images/image-20210724162940180-1627435830684414.png)
 
-![image-20210724163101952](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724163101952.png)
+![image-20210724163101952](.images/image-20210724163101952-1627435832667415.png)
 
 
 
@@ -1680,13 +1680,13 @@ enable/ena 断点序号 断点序号 断点序号...
 enable/ena 断点序号-断点序号
 ```
 
-![image-20210724163345629](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724163345629.png)
+![image-20210724163345629](.images/image-20210724163345629-1627435836074416.png)
 
-![image-20210724163440163](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724163440163.png)
+![image-20210724163440163](.images/image-20210724163440163-1627435839212417.png)
 
-![image-20210724163720765](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724163720765.png)
+![image-20210724163720765](.images/image-20210724163720765-1627435841483418.png)
 
-![image-20210724163837543](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724163837543.png)
+![image-20210724163837543](.images/image-20210724163837543-1627435843043419.png)
 
 
 
@@ -1702,7 +1702,7 @@ enable/ena 断点序号-断点序号
 continue/c
 ```
 
-![image-20210724171256117](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724171256117.png)
+![image-20210724171256117](.images/image-20210724171256117-1627435844596420.png)
 
 
 
@@ -1712,11 +1712,11 @@ continue/c
 p/print 变量名
 ```
 
-![image-20210724171414628](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724171414628.png)
+![image-20210724171414628](.images/image-20210724171414628-1627435846171421.png)
 
-![image-20210724171445662](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724171445662.png)
+![image-20210724171445662](.images/image-20210724171445662-1627435849219422.png)
 
-![image-20210724172509202](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724172509202.png)
+![image-20210724172509202](.images/image-20210724172509202-1627435852139423.png)
 
 
 
@@ -1728,7 +1728,7 @@ p/print 变量名
 display 变量名
 ```
 
-![image-20210724200431841](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724200431841.png)
+![image-20210724200431841](.images/image-20210724200431841-1627435854227424.png)
 
 ##### 5.3.2查看自动显示列表
 
@@ -1736,9 +1736,9 @@ display 变量名
 info/l display
 ```
 
-![image-20210724200619556](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724200619556.png)
+![image-20210724200619556](.images/image-20210724200619556-1627435855964425.png)
 
-![image-20210724200947994](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724200947994.png)
+![image-20210724200947994](.images/image-20210724200947994-1627435857378426.png)
 
 
 
@@ -1750,11 +1750,11 @@ undisplay/delete 变量序号 变量序号 变量序号...
 undisplay/delete 变量序号-变量序号
 ```
 
-![image-20210724201042598](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724201042598.png)
+![image-20210724201042598](.images/image-20210724201042598-1627435860891427.png)
 
-![image-20210724201100961](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724201100961.png)
+![image-20210724201100961](.images/image-20210724201100961-1627435862354428.png)
 
-![image-20210724201156293](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724201156293.png)
+![image-20210724201156293](.images/image-20210724201156293-1627435865355429.png)
 
 ```
 disable display  变量序号  
@@ -1779,7 +1779,7 @@ step/s
 
 **逐步调试，会进入函数体内部**
 
-![image-20210724205245020](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724205245020.png)
+![image-20210724205245020](.images/image-20210724205245020-1627435867787430.png)
 
 
 
@@ -1789,7 +1789,7 @@ step/s
 finish
 ```
 
-![image-20210724205538622](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724205538622.png)
+![image-20210724205538622](.images/image-20210724205538622-1627435870227431.png)
 
 ##### 5.4.3 next
 
@@ -1799,7 +1799,7 @@ next/n
 
 **不会进入函数体内部进行逐步调试**
 
-![image-20210724205408098](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724205408098.png)
+![image-20210724205408098](.images/image-20210724205408098-1627435872021432.png)
 
 
 
@@ -1810,7 +1810,7 @@ next/n
 until
 ```
 
-**不能有断点，循环体的开始行或结束行执行命令**![image-20210724210645642](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724210645642.png)
+**不能有断点，循环体的开始行或结束行执行命令**![image-20210724210645642](.images/image-20210724210645642-1627435874523433.png)
 
 
 
@@ -1820,5 +1820,5 @@ until
 set var 变量名=x
 ```
 
-![image-20210724211025962](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724211025962.png)
+![image-20210724211025962](.images/image-20210724211025962-1627435876243434.png)
 
