@@ -26,7 +26,7 @@
 
 
 
-![image-20210727140004081](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210727140004081.png)
+![image-20210727140004081](.images/image-20210727140004081.png)
 
 a.创建空目录
 
