@@ -22,7 +22,7 @@ debian->Ubuntu
 
 ![image-20210701214352043](.images/image-20210701214352043-1627435278011154.png)
 
-![image-20210701214508178](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210701214508178.png)
+![image-20210701214508178](.images/image-20210701214508178.png)
 
 redhat->CentOS
 
@@ -302,7 +302,7 @@ rm:
 
 ![image-20210705161644966](.images/image-20210705161644966-1627435361996194.png)
 
-![image-20210705161706820](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210705161706820.png)
+![image-20210705161706820](.images/image-20210705161706820.png)
 
 
 
@@ -312,7 +312,7 @@ rm:
 
 ![image-20210705161740955](.images/image-20210705161740955-1627435365890195.png)
 
-![image-20210705161839450](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210705161839450.png)
+![image-20210705161839450](.images/image-20210705161839450.png)
 
 
 
@@ -330,7 +330,7 @@ rm:
 
 ![image-20210705172140697](.images/image-20210705172140697-1627435369531197.png)
 
-![image-20210705172522951](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210705172522951.png)
+![image-20210705172522951](.images/image-20210705172522951.png)
 
 ![image-20210705172326580](.images/image-20210705172326580-1627435370909198.png)
 
@@ -1556,7 +1556,7 @@ start：阻塞在main函数第一行，等待其他gdb命令
 
 ![image-20210724152648205](.images/image-20210724152648205-1627435800995402.png)
 
-![image-20210724152717352](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210724152717352.png)
+![image-20210724152717352](.images/image-20210724152717352.png)
 
 #### 2.4退出gdb
 

@@ -22,11 +22,11 @@
 
 ## 2.数据库类型和常见的关系型数据库
 
-![image-20210726151521724](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210726151521724.png)
+![image-20210726151521724](.images/image-20210726151521724.png)
 
 ![image-20210726151744066](.images/image-20210726151744066-1627435890343436.png)
 
-![image-20210726152054001](C:\Users\10592\AppData\Roaming\Typora\typora-user-images\image-20210726152054001.png)
+![image-20210726152054001](.images/image-20210726152054001.png)
 
 关系型数据库：存储在硬盘上的，需要读写
 
