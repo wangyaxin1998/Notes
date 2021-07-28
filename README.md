@@ -1,6 +1,6 @@
 # Notes
 
-[C++笔记]([Notes/C++笔记.md at main · wangyaxin1998/Notes (github.com)](https://github.com/wangyaxin1998/Notes/blob/main/C%2B%2B笔记.md))
+[C++笔记](./C++笔记.md)
 
 [Git指令]([Notes/Git指令.md at main · wangyaxin1998/Notes (github.com)](https://github.com/wangyaxin1998/Notes/blob/main/Git指令.md))
 
