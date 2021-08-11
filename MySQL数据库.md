@@ -525,3 +525,103 @@ ALTER TABLE t_student DROP FOREIGN KEY fk_stu_classno;
 ALTER TABLE t_student ADD CONSTRAINT fk_stu_classno FOREIGN KEY (classno) REFERENCES t_class(cno) ON UPDATE SET NULL ON DELETE SET NULL;
 ```
 
+补充：
+
+```
+-- 添加一张表：快速添加  结构和数据跟t_student都是一致的
+CREATE TABLE t_student2
+as
+SELECT * from t_student;
+
+
+-- 快速添加  结构跟t_student都是一致的
+CREATE TABLE t_student3
+as
+SELECT * from t_student WHERE 1=2;
+
+-- 快速添加：只要部分列，部分数据：
+CREATE TABLE t_student4
+as
+SELECT sno, sname ,age from t_student WHERE sno=2;
+
+
+-- 删除数据操作
+DELETE FROM t_student;逐条删除所有数据
+TRUNCATE TABLE t_student;创建一个新表
+
+```
+
+
+
+## 4.总结
+
+
+
+| 约束条件       | 约束描述     | 备注                                                |
+| -------------- | ------------ | --------------------------------------------------- |
+| primary key    | 主键约束     |                                                     |
+| not null       | 非空约束     |                                                     |
+| unique         | 唯一约束     |                                                     |
+| check          | 检查约束     | check(关键字的逻辑表达式)                           |
+| default        | 默认值约束   | default '男'                                        |
+| auto_increment | 自动增加约束 | 主键的值为null/default的时候自增 只能放到列级约束内 |
+| foreign key    | 外键约束     | 约束表与表之前的关系                                |
+
+
+
+
+
+| 约束条件     | 约束表述                                         | 举例                                                        |
+| ------------ | ------------------------------------------------ | ----------------------------------------------------------- |
+| 列级约束     | 创建表的时候，在关键字的后面加约束               | sname varchar(5) NOT NULL                                   |
+| 表级约束     | 创建表的时，在最后一个关键字后加所有关键字的约束 | constrain pk_stu primary key(sno),-- pk_stu 主键约束的名字  |
+| 表外添加约束 | 在创建表后，在表外添加约束                       | alter tablet_student add constrain pk_stu primary key(sno); |
+
+
+
+外键约束：不能放到列级约束内
+
+![image-20210806110232046](.images/image-20210806110232046.png)
+
+```
+包括主表和从表，从表依赖于主表
+
+上图：主表为班级表，从表为学生表。
+
+alter table 从表名 add constrain 约束命名_foreign key(从表关键字名) reference 主表名(主表关键字名)
+```
+
+
+
+外键策略：
+
+```
+级联操作：操作主表的时候影响从表的外键信息：
+alter table 从表名 add constrain 约束命名_foreign key(从表关键字名) reference 主表名(主表关键字名) on update cascade on delete cascade
+
+置空操作：操作主表的关键字，会使附表的被约束的关键字置空
+alter table 从表名 add constrain 约束命名_foreign key(从表关键字名) reference 主表名(主表关键字名) on update set null on delete set null;
+```
+
+
+
+快速复制一个表：
+
+```
+完全复制：结构和数据
+create table 表名
+as
+select * from t_student
+
+
+仅复制结构
+create table 表名
+as
+select * from t_student where 1=2(flase的逻辑表达式)
+
+仅复制机构和数据的部分内容
+create table 表名
+as
+select 关键字1，关键字2， from t_student where 关键字的逻辑表达式
+```
+

@@ -1340,41 +1340,31 @@ private:
 
 ------
 
-`class A`
+```
+class A
 
-{**//A->A(int)->A(int,int)**
+{//A->A(int)->A(int,int)
 
-`public:`
+public:
+	A() :A(0)
+	{}
+	A(int i) :A(i, 0)
+	{}
+	A(int i, int j)
+	{
+		num1 = i;
+		num2 = j;
+		average = (num1 + num2) / 2;
+	}
 
-​	`A() :`**A(0)**
+private:
+	int num1;
+	int num2;
+	int average;
+};
+```
 
-​	`{}`
 
-​	`A(int i) :`**A(i, 0)**
-
-​	`{}`
-
-​	`A(int i, int j)`
-
-​	`{`
-
-​		`num1 = i;`
-
-​		`num2 = j;`
-
-​		`average = (num1 + num2) / 2;`
-
-​	`}`
-
-`private:`
-
-​	`int num1;`
-
-​	`int num2;`
-
-​	`int average;`
-
-`};`
 
 ------
 
@@ -1382,51 +1372,38 @@ private:
 
 ------
 
-`class Square`
+```
+class Square
 
-`{`
+{
 
-`public:`
+public:
+	Square()
+	{
+		getNumberOfObject++;`
+	}
+	static int getNumberOfObject;`
 
-​	`Square()`
+	int Get()
 
-​	`{`
+	{
+		return getNumberOfObject;
+	}
+};
 
-​		`getNumberOfObject++;`
 
-​	`}`
+using namespace std;
+int Square::getNumberOfObject = 10;
+int main()
+{
+	Square s1;
+	cout << s1.Get() << endl;
+	Square s2;
+	cout << Square::getNumberOfObject << endl;//通过类名访问静态数据成员的方式
+}
+```
 
-​	`static int getNumberOfObject;`
 
-​	`int Get()`
-
-​	`{`
-
-​		`return getNumberOfObject;`
-
-​	`}`
-
-`};`
-
- 
-
-`using namespace std;`
-
-**`int Square::getNumberOfObject = 10;`**
-
-`int main()`
-
-`{`
-
-​	`Square s1;`
-
-​	`cout << s1.Get() << endl;`
-
-​	`Square s2;`
-
-​	cout << Square::getNumberOfObject << endl;<font color=green>//通过类名访问静态数据成员的方式</font>
-
-`}`
 
 ------
 
@@ -1436,27 +1413,91 @@ private:
 
 如果创建的是静态存储类对象，则其析构函数将在程序结束时被自动调用
 
- 
+
+
+###  移动构造函数
+
+```
+class Buffer {
+ private:
+  unsigned char *buf;
+  int capacity;
+  int length;
+ public:
+  explicit Buffer(int capacity) : capacity(capacity), length(0), buf(new unsigned char[capacity]{}) {
+    cout << "Constructor: " << *this << endl;
+  }
+
+//移动构造函数，直接把匿名对象的内容给当前对象
+Buffer(Buffer &&buffer)  noexcept {
+    cout << "Move Constructor: " << buffer << endl;
+    this->capacity = buffer.capacity;
+    this->length = buffer.length;
+    this->buf = buffer.buf;//直接借用匿名对象的地址
+
+    buffer.capacity = 0;
+    buffer.length = 0;
+    buffer.buf = nullptr;/将匿名对象的地址置空
+  }
+  
+  Buffer &operator=(Buffer &&buffer)  noexcept {
+    cout << "Move: " << buffer << endl;
+    if (this != &buffer) {
+      this->capacity = buffer.capacity;
+      this->length = buffer.length;
+      this->buf = buffer.buf;
+
+      buffer.capacity = 0;
+      buffer.length = 0;
+      buffer.buf = nullptr;
+    }
+
+    return *this;
+  }
+  
+  
+  int main() {
+  auto buffer = Buffer(10);
+  buffer = Buffer(16);
+```
+
+
 
 如果对象是new创建的，则它将在栈内存或自由存储区中，当使用delete来释放内存时，其析构函数将自动被调用。
 
 ### 拷贝构造函数
 
-`Circle(Circle&);`
+`Person(Person&)=default;`
 
-`Circle(const Circle&);`
+`Person (char const* name,int age);`
 
-`Circle(const Circle&,int=1);`<font color=green>//第一个为同类型的引用，后面都带有默认值</font>
+`Person(char const* description);`<font color=green>//第一个为同类型的引用，后面都带有默认值</font>
+
+`Person& operator=(Person const& other);`
 
  
 
-调用拷贝构造函数
+调拷贝构造函数
 
-`Circle c1(5.0);`**<font color=green>//直接初始化</font>**
+```
+Person person("wyx",23);//直接初始化调用构造器
 
-`Circle c2(c1);`
+Person person2=person;
 
-`Circle c3 = c1;`
+person2=person;//调用Person& operator=(Person const& other);
+
+Person person3=“hyx;23”;//调用Person(char const* description)
+//上面发生了隐式类型转换，如果explicit Person(char const* description)
+//应改为Person person3(“hyx;23”);
+
+person3="wyx;23";
+//如果不加explicit容易产生歧义
+//先调用 Person(char const* description)创建临时对象
+//临时对象调用Person(Person&)，产生了多次拷贝
+//加explicit改为person3=Person("wyx;23");
+```
+
+
 
 `Circle c3 = { c1 };`<font color=green>//c++11</font>
 
